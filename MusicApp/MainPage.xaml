@@ -12,8 +12,12 @@
             </HorizontalStackLayout>
         <Frame Padding="10,0" BackgroundColor="#E2D0D0" CornerRadius="15" WidthRequest="300" HeightRequest="47" HorizontalOptions="Start">
                 <Label Text="Dostępne utwory:" HorizontalOptions="Center" VerticalOptions="Center"/>
-            </Frame>
+        </Frame>
 
+        <Frame>
+            <Label Text="Nazwa Utworu" />
+            <Label Text="Nazwa Autora" />
+        </Frame>
     </VerticalStackLayout>
     
 </ContentPage>
