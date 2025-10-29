@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicApp.music_page"
+             BackgroundColor="#580B0B"
+             Title="music_page">
+    <VerticalStackLayout>
+        <Frame HeightRequest="286" WidthRequest="286" CornerRadius="15" Margin="30">
+            
+        </Frame>
+        <Label 
+            Text="Tytuł utworu"
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Nazwa artysty"
+            HorizontalOptions="Center" />
+
+        <Grid RowDefinitions="*" ColumnDefinitions="Auto, *, Auto">
+            <Button Text="|" Grid.Row="1" Grid.Column="1" />
+            <Button Text=">" Grid.Row="1" Grid.Column="2" />
+            <Button Text="|" Grid.Row="1" Grid.Column="3" />
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

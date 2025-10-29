@@ -8,7 +8,10 @@
             InitializeComponent();
         }
 
-        //private void OnCounterClicked(object? sender, EventArgs e)
+        private void musicPage_Button(object? sender, EventArgs e)
+        {
+            Application.Current.MainPage = new music_page();
+        }
         
     }
 }

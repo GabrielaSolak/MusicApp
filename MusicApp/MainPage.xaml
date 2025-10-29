@@ -16,7 +16,7 @@
 
         <Frame>
             <Label Text="Nazwa Utworu" />
-            <Label Text="Nazwa Autora" />
+            <Button Text="->" Clicked="musicPage_Button" />
         </Frame>
     </VerticalStackLayout>
     
